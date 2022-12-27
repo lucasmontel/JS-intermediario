@@ -25,7 +25,7 @@ switch (string[0]) { /*Fazemos uma função que recebe o primeiro caracter */
         }
         break;
 
-    default:
+    default: //Caso nenhuma dessas seja verdadeira fale "false" e para o laço de repetição
         print('false');
         break;
 }
